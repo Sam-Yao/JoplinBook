@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 23 Mar 2022 01:47:14 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Mar 2022 01:52:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[README_test]]></title>
+            <guid>c2f62228ae294f2e9c434be63893109f</guid>
+            <pubDate>Thu, 17 Feb 2022 01:11:11 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>✅ Legacy Templates successfully imported!</strong></p>
+<p>Quick tips for the Templates Plugin:</p>
+<ul>
+<li>All notes or to-dos with the <code>template</code> tag are considered templates, so this import folder can be renamed / reorganized / deleted.</li>
+<li>To create a new template, create a new note or to-do and add tag <code>template</code>.</li>
+<li>Your legacy templates are still in your Joplin directory but have been renamed from <code>.md</code> to <code>.md.old</code>.
+<ul>
+<li>These backups can be deleted once you’ve confirmed that your templates were correctly imported.</li>
+</ul>
+</li>
+<li>Templates now support built in variables 🎉 and more. For full documentation and features, see the <a title="https://github.com/joplin/plugin-templates#readme" href="https://github.com/joplin/plugin-templates#readme">README</a>.</li>
+</ul>
+]]></content:encoded>
+        </item>
     </channel>
 </rss>
